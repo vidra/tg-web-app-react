@@ -31,7 +31,7 @@ const ProductList = () => {
             totalPrice: getTotalPrice(addedItems),
             queryId,
         }
-        fetch('https://lechic.beauty/web-data', {
+        fetch('https://lechic.beauty:8000', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
